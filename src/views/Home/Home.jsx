@@ -31,6 +31,9 @@ import SectionExamples from "./Sections/SectionExamples.jsx";
 import SectionDownload from "./Sections/SectionDownload.jsx";
 
 import homeStyle from "assets/jss/material-kit-react/views/home.jsx";
+import ProductSection from "./Sections/ProductSection";
+import TeamSection from "./Sections/TeamSection";
+import WorkSection from "./Sections/WorkSection";
 
 class Home extends React.Component {
   render() {
@@ -64,25 +67,11 @@ class Home extends React.Component {
         </Parallax>
 
         <div className={classNames(classes.main, classes.mainRaised)}>
-          <SectionBasics />
-          <SectionNavbars />
-          <SectionTabs />
-          <SectionPills />
-          <SectionNotifications />
-          <SectionTypography />
-          <SectionJavascript />
-          <SectionCarousel />
-          <SectionCompletedExamples />
-          <SectionLogin />
-          <GridItem md={12} className={classes.textCenter}>
-            <Link to={"/login-page"} className={classes.link}>
-              <Button color="primary" size="lg" simple>
-                View Login Page
-              </Button>
-            </Link>
-          </GridItem>
-          <SectionExamples />
-          <SectionDownload />
+          <div className={classes.container}>
+            <ProductSection />
+            <TeamSection />
+            <WorkSection />
+          </div>
         </div>
         <Footer />
       </div>

@@ -18,8 +18,7 @@ import GridItem from "components/Grid/GridItem.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import NavPills from "components/NavPills/NavPills.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
-import profile from "assets/img/faces/ehsan.jpg";
-import team4 from "assets/img/faces/Mohtashim.jpg";
+import team4 from "assets/img/faces/Mohtashim-Waheed.jpg";
 
 import profilePageStyle from "assets/jss/material-kit-react/views/profilePage.jsx";
 

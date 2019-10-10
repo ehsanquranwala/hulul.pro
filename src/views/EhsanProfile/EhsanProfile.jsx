@@ -18,7 +18,7 @@ import GridItem from "components/Grid/GridItem.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import NavPills from "components/NavPills/NavPills.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
-import profile from "assets/img/faces/ehsan.jpg";
+import profile from "assets/img/faces/Ehsan-Quranwala.jpg";
 
 import profilePageStyle from "assets/jss/material-kit-react/views/profilePage.jsx";
 
@@ -84,6 +84,7 @@ class ProfilePage extends React.Component {
 
                 </p>
               </div>
+
             </div>
           </div>
         </div>

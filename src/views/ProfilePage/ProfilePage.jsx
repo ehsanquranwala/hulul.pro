@@ -19,7 +19,7 @@ import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import NavPills from "components/NavPills/NavPills.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 
-import profile from "assets/img/faces/christian.jpg";
+import profile from "assets/img/faces/Ehsan-Quranwala.jpg";
 
 import studio1 from "assets/img/examples/studio-1.jpg";
 import studio2 from "assets/img/examples/studio-2.jpg";

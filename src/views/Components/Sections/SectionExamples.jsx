@@ -15,7 +15,6 @@ import exampleStyle from "assets/jss/material-kit-react/views/componentsSections
 
 import landing from "assets/img/landing.jpg";
 import profile from "assets/img/profile.jpg";
-
 class SectionExamples extends React.Component {
   render() {
     const { classes } = this.props;
